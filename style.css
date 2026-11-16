@@ -26,3 +26,12 @@ article h1{font-size:2.4rem;margin:8px 0;letter-spacing:-.02em}.lead{font-size:1
 .actions{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
 .btn{padding:8px 16px;border:1px solid var(--line);border-radius:10px;background:var(--card)}.btn:hover{border-color:var(--accent)}
 footer{text-align:center;color:var(--mute);padding:32px;border-top:1px solid var(--line);font-size:.9rem}
+.nav nav a.on{color:var(--fg);font-weight:600}
+.hero.small{padding:40px 0 8px}.hero.small h1{font-size:clamp(2rem,5vw,2.8rem)}
+.about{font-size:1.1rem;color:var(--mute);max-width:640px}
+.stats{display:flex;gap:32px;margin-top:20px}.stats b{display:block;font-size:2rem;color:var(--accent);line-height:1}.stats span{color:var(--mute);font-size:.9rem}
+.feature{padding:28px}.feature h3{font-size:1.6rem}
+.more{color:var(--accent);display:inline-block;margin-top:12px}
+.grid.wide{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.member .bio{margin:14px 0 0}.member .actions{margin:14px 0 0}.member .btn{padding:5px 12px;font-size:.9rem}
+.member h3 a:hover{color:var(--accent)}

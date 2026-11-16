@@ -1,13 +1,14 @@
 {
   "name": "PorterTech",
   "tagline": "A group of builders shipping projects at hackathons.",
+  "about": "Replace this with a short summary of who you are, how the group started, and what you like to build.",
   "members": [
     {
       "slug": "alex",
       "name": "Alex Example",
       "role": "Full-stack",
       "bio": "Replace this with a short bio. What do you love building?",
-      "links": { "GitHub": "https://github.com/", "LinkedIn": "https://linkedin.com/" }
+      "links": { "LinkedIn": "https://linkedin.com/", "GitHub": "https://github.com/", "Website": "https://example.com" }
     },
     {
       "slug": "sam",
@@ -21,6 +22,7 @@
     {
       "slug": "example-project",
       "title": "Example Project",
+      "date": "2026-10-15",
       "hackathon": "HackExample 2026",
       "result": "1st Place",
       "summary": "One-line description of what this project does.",
