@@ -1,0 +1,33 @@
+{
+  "name": "PorterTech",
+  "tagline": "A group of builders shipping projects at hackathons.",
+  "members": [
+    {
+      "slug": "alex",
+      "name": "Alex Example",
+      "role": "Full-stack",
+      "bio": "Replace this with a short bio. What do you love building?",
+      "links": { "GitHub": "https://github.com/", "LinkedIn": "https://linkedin.com/" }
+    },
+    {
+      "slug": "sam",
+      "name": "Sam Example",
+      "role": "ML / Backend",
+      "bio": "Replace this with a short bio.",
+      "links": { "GitHub": "https://github.com/" }
+    }
+  ],
+  "projects": [
+    {
+      "slug": "example-project",
+      "title": "Example Project",
+      "hackathon": "HackExample 2026",
+      "result": "1st Place",
+      "summary": "One-line description of what this project does.",
+      "description": "A longer write-up: the problem, how you built it, what you learned.",
+      "tech": ["React", "Python", "OpenAI"],
+      "team": ["alex", "sam"],
+      "links": { "Demo": "https://example.com", "Code": "https://github.com/", "Devpost": "https://devpost.com/" }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+:root{--bg:#0b0d12;--fg:#e9ecf3;--mute:#98a0b3;--card:#141824;--line:#232a3b;--accent:#6ee7b7}
+@media(prefers-color-scheme:light){:root{--bg:#fafafa;--fg:#12151c;--mute:#5b6477;--card:#fff;--line:#e3e6ee;--accent:#059669}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif}
+a{color:inherit;text-decoration:none}
+.nav{display:flex;justify-content:space-between;align-items:center;max-width:960px;margin:0 auto;padding:20px 16px}
+.logo{font-weight:700;font-size:1.2rem}.logo span{color:var(--accent)}
+.nav nav a{margin-left:20px;color:var(--mute)}.nav nav a:hover{color:var(--fg)}
+main{max-width:960px;margin:0 auto;padding:0 16px 64px}
+.hero{padding:72px 0 40px}.hero h1{font-size:clamp(2.4rem,7vw,4rem);margin:0;letter-spacing:-.03em}
+.hero p{font-size:1.2rem;color:var(--mute);max-width:560px}
+h2{margin:48px 0 16px;font-size:1.4rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;transition:.15s}
+.card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.card h3{margin:4px 0}.card p{margin:0;color:var(--mute)}
+.meta{font-size:.85rem;color:var(--mute)}.meta b{color:var(--accent)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.tags span{font-size:.75rem;padding:2px 10px;border:1px solid var(--line);border-radius:99px;color:var(--mute)}
+.person{display:flex;gap:14px;align-items:center}
+.avatar{width:52px;height:52px;flex:none;border-radius:50%;background:var(--accent);color:#06241a;display:grid;place-items:center;font-weight:700;overflow:hidden}
+.avatar img{width:100%;height:100%;object-fit:cover}
+.profile{display:flex;gap:20px;align-items:center}.profile .avatar{width:84px;height:84px;font-size:1.6rem}
+article h1{font-size:2.4rem;margin:8px 0;letter-spacing:-.02em}.lead{font-size:1.15rem;color:var(--mute)}
+.back{color:var(--mute);display:inline-block;margin:16px 0}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+.btn{padding:8px 16px;border:1px solid var(--line);border-radius:10px;background:var(--card)}.btn:hover{border-color:var(--accent)}
+footer{text-align:center;color:var(--mute);padding:32px;border-top:1px solid var(--line);font-size:.9rem}
