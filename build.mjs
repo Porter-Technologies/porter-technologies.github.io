@@ -83,7 +83,8 @@ for (const m of data.members) {
 <article><a class="back" href="../">← Team</a>
 <div class="profile">${avatar(m, 2)}<div><h1>${esc(m.name)}</h1><p class="lead">${esc(m.role)}</p></div></div>
 <p>${esc(m.bio)}</p><div class="actions">${links(m.links)}</div>
-<h2>Projects</h2><div class="grid">${mine.map((p) => projectCard(p, 2)).join("") || "<p>Coming soon.</p>"}</div></article>`, 2, "Team"));
+${(m.highlights || []).length ? `<h2>Other work</h2><div class="grid">${m.highlights.map((h) => `<a class="card" href="${esc(h.url)}" target="_blank" rel="noopener"><h3>${esc(h.title)} ↗</h3><p>${esc(h.text)}</p></a>`).join("")}</div>` : ""}
+<h2>Hackathon projects</h2><div class="grid">${mine.map((p) => projectCard(p, 2)).join("") || "<p>Coming soon.</p>"}</div></article>`, 2, "Team"));
 }
 
 console.log(`Built ${data.projects.length} projects, ${data.members.length} members -> dist/`);

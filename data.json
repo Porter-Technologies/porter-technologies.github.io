@@ -4,32 +4,58 @@
   "about": "Replace this with a short summary of who you are, how the group started, and what you like to build.",
   "members": [
     {
-      "slug": "alex",
-      "name": "Alex Example",
-      "role": "Full-stack",
-      "bio": "Replace this with a short bio. What do you love building?",
-      "links": { "LinkedIn": "https://linkedin.com/", "GitHub": "https://github.com/", "Website": "https://example.com" }
-    },
-    {
-      "slug": "sam",
-      "name": "Sam Example",
-      "role": "ML / Backend",
-      "bio": "Replace this with a short bio.",
-      "links": { "GitHub": "https://github.com/" }
+      "slug": "dhruva",
+      "name": "Dhruva Uppaluri",
+      "role": "Electrical Engineering · ASIC / FPGA",
+      "bio": "Electrical engineering student at UC Santa Cruz (transferred from Las Positas College) focused on ASIC/SoC design, FPGA development and digital hardware verification. I work in SystemVerilog and Verilog on RTL design, formal verification, synthesis and timing analysis, and I'm building AI-driven FPGA accelerators and neural signal processing hardware. Seeking a Summer 2027 internship.",
+      "links": {
+        "Website": "https://dhruvauppaluri.github.io/",
+        "LinkedIn": "https://www.linkedin.com/in/dhruvauppaluri",
+        "GitHub": "https://github.com/dhruvauppaluri"
+      },
+      "highlights": [
+        {
+          "title": "NeuroSig",
+          "text": "32-channel SystemVerilog neural signal pipeline with spike detection, localization and edge AI classification.",
+          "url": "https://github.com/dhruvauppaluri/Neurosig"
+        },
+        {
+          "title": "Malleable AI FPGA",
+          "text": "FPGA accelerator that adapts its datapath and resources to different neural-network models.",
+          "url": "https://github.com/dhruvauppaluri/MalleableAI-FPGA"
+        },
+        {
+          "title": "Jane Street Protocol Emulator ASIC",
+          "text": "Cycle-accurate protocol emulator ASIC targeting an IHP 130 nm tapeout, with a custom 16-instruction processor.",
+          "url": "https://github.com/dhruvauppaluri/Dhruva-Uppaluri-JaneStreetASIC"
+        }
+      ]
     }
   ],
   "projects": [
     {
-      "slug": "example-project",
-      "title": "Example Project",
-      "date": "2026-10-15",
-      "hackathon": "HackExample 2026",
-      "result": "1st Place",
-      "summary": "One-line description of what this project does.",
-      "description": "A longer write-up: the problem, how you built it, what you learned.",
-      "tech": ["React", "Python", "OpenAI"],
-      "team": ["alex", "sam"],
-      "links": { "Demo": "https://example.com", "Code": "https://github.com/", "Devpost": "https://devpost.com/" }
+      "slug": "friday-robot-drawing-arm",
+      "title": "Friday: Voice-Controlled Robot Drawing Arm",
+      "date": "2026-10-11",
+      "hackathon": "UCSC AI Hackathon",
+      "summary": "Say \"Friday, draw a smiley face\" and a low-cost robot arm draws it, asks how it looked, and adjusts.",
+      "description": "A four-person hackathon build around the SO-101 robot arm. An ElevenLabs voice agent picks a tool, commands travel over SSH to an AMD Ryzen AI MAX+ 395 station, and the arm turns pen-tip paths into joint commands. We calibrated the pen offset with least squares and inverse kinematics, and estimated pen friction from servo data instead of force sensors. The live voice loop ran end to end once; repeatability is untested.",
+      "tech": ["SO-101", "LeRobot", "Python", "MuJoCo", "ElevenLabs", "AMD Ryzen AI"],
+      "team": ["dhruva"],
+      "links": {
+        "Code": "https://github.com/dhruvauppaluri/UCSCA-AI-HACKS-Porter-Tech",
+        "Devpost": "https://devpost.com/software/amdrobotdraweraimodel"
+      }
+    },
+    {
+      "slug": "eeg-controlled-rover",
+      "title": "EEG Brain Signal Controlled Rover",
+      "hackathon": "WeaveHacks 4",
+      "summary": "A hand-built rover driven by EEG brain waves through a multi-agent LLM system running edge inference.",
+      "description": "A four-person team project. We built an EEG-to-rover pipeline that turns Bluetooth brain-signal data into real-time motor commands using custom transistor motor-control circuits. A multi-agent AI pipeline normalizes EEG signals against each user's baseline, which improved command-reading accuracy by more than 50%.",
+      "tech": ["EEG", "Multi-agent LLM", "Edge inference", "Bluetooth", "Motor control"],
+      "team": ["dhruva"],
+      "links": {}
     }
   ]
 }
