@@ -34,14 +34,45 @@
   ],
   "projects": [
     {
+      "slug": "hanzel",
+      "title": "Hanzel",
+      "date": "2026-11-15",
+      "hackathon": "SC-HACK",
+      "summary": "A candidate-facing career tool that checks your real project work against a job description and explains how well you fit.",
+      "description": "Hanzel is the candidate-facing app for our SC-HACK Career Intelligence pipeline. A candidate uploads a resume, picks a target track (hardware, software or product) and links GitHub or website projects. A Depth engine inspects each project's real source and emits cited, evidence-based assessments, since a resume claim alone can't prove implemented work. A Paralegal agent extracts resume signals, two Lawyer agents argue strengths and gaps from the same evidence, and a Judge agent weighs the cases. The match score comes from documented requirement coverage, so the model's narrative can't change it. Hanzel also lists Summer 2027 roles from the SimplifyJobs feed with a preliminary profile screen. Built with Rishi, Harsh and Venya; Dhruva owned Project Depth, the website and integration.",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Gemini",
+        "Multi-agent LLM"
+      ],
+      "team": [
+        "dhruva"
+      ],
+      "links": {
+        "Code": "https://github.com/dhruvauppaluri/GCDC-HACKATHON"
+      }
+    },
+    {
       "slug": "friday-robot-drawing-arm",
       "title": "Friday: Voice-Controlled Robot Drawing Arm",
       "date": "2026-10-11",
       "hackathon": "UCSC AI Hackathon",
       "summary": "Say \"Friday, draw a smiley face\" and a low-cost robot arm draws it, asks how it looked, and adjusts.",
       "description": "A four-person hackathon build around the SO-101 robot arm. An ElevenLabs voice agent picks a tool, commands travel over SSH to an AMD Ryzen AI MAX+ 395 station, and the arm turns pen-tip paths into joint commands. We calibrated the pen offset with least squares and inverse kinematics, and estimated pen friction from servo data instead of force sensors. The live voice loop ran end to end once; repeatability is untested.",
-      "tech": ["SO-101", "LeRobot", "Python", "MuJoCo", "ElevenLabs", "AMD Ryzen AI"],
-      "team": ["dhruva"],
+      "tech": [
+        "SO-101",
+        "LeRobot",
+        "Python",
+        "MuJoCo",
+        "ElevenLabs",
+        "AMD Ryzen AI"
+      ],
+      "team": [
+        "dhruva"
+      ],
       "links": {
         "Code": "https://github.com/dhruvauppaluri/UCSCA-AI-HACKS-Porter-Tech",
         "Devpost": "https://devpost.com/software/amdrobotdraweraimodel"
@@ -53,8 +84,16 @@
       "hackathon": "WeaveHacks 4",
       "summary": "A hand-built rover driven by EEG brain waves through a multi-agent LLM system running edge inference.",
       "description": "A four-person team project. We built an EEG-to-rover pipeline that turns Bluetooth brain-signal data into real-time motor commands using custom transistor motor-control circuits. A multi-agent AI pipeline normalizes EEG signals against each user's baseline, which improved command-reading accuracy by more than 50%.",
-      "tech": ["EEG", "Multi-agent LLM", "Edge inference", "Bluetooth", "Motor control"],
-      "team": ["dhruva"],
+      "tech": [
+        "EEG",
+        "Multi-agent LLM",
+        "Edge inference",
+        "Bluetooth",
+        "Motor control"
+      ],
+      "team": [
+        "dhruva"
+      ],
       "links": {}
     }
   ]
