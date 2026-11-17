@@ -28,6 +28,15 @@
           "title": "Jane Street Protocol Emulator ASIC",
           "text": "Cycle-accurate protocol emulator ASIC targeting an IHP 130 nm tapeout, with a custom 16-instruction processor.",
           "url": "https://github.com/dhruvauppaluri/Dhruva-Uppaluri-JaneStreetASIC"
+        },
+        {
+          "title": "EEG Brain Signal Controlled Rover",
+          "text": "WeaveHacks 4: a hand-built rover driven by EEG brain waves through a multi-agent LLM system with edge inference, using custom transistor motor-control circuits."
+        },
+        {
+          "title": "Axiom: Neural RLHF",
+          "text": "WeaveHacks 4 (24-hour hackathon): three AI agents adapt to a person's focus and engagement, measured with a Muse S EEG headband. I co-created it, proposed the assistive-communication idea, and built the baseline and timing sync between calibration, live EEG readings and scoring.",
+          "url": "https://dhruvauppaluri.github.io/project-axiom-neural-rlhf.html"
         }
       ]
     },
@@ -98,24 +107,6 @@
         "Code": "https://github.com/dhruvauppaluri/UCSCA-AI-HACKS-Porter-Tech",
         "Devpost": "https://devpost.com/software/amdrobotdraweraimodel"
       }
-    },
-    {
-      "slug": "eeg-controlled-rover",
-      "title": "EEG Brain Signal Controlled Rover",
-      "hackathon": "WeaveHacks 4",
-      "summary": "A hand-built rover driven by EEG brain waves through a multi-agent LLM system running edge inference.",
-      "description": "A four-person team project. We built an EEG-to-rover pipeline that turns Bluetooth brain-signal data into real-time motor commands using custom transistor motor-control circuits. A multi-agent AI pipeline normalizes EEG signals against each user's baseline, which improved command-reading accuracy by more than 50%.",
-      "tech": [
-        "EEG",
-        "Multi-agent LLM",
-        "Edge inference",
-        "Bluetooth",
-        "Motor control"
-      ],
-      "team": [
-        "dhruva"
-      ],
-      "links": {}
     }
   ]
 }
