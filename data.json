@@ -32,14 +32,6 @@
       ]
     },
     {
-      "slug": "rishi",
-      "name": "Rishi Chandrasekaran",
-      "role": "Applied Mathematics",
-      "bio": "Will find success around 50.",
-      "links": {},
-      "highlights": []
-    },
-    {
       "slug": "harsh",
       "name": "Harsh Gupta",
       "role": "Computer Engineering · ASIC / FPGA",
@@ -47,6 +39,14 @@
       "links": {
         "GitHub": "https://github.com/harsh-005"
       },
+      "highlights": []
+    },
+    {
+      "slug": "rishi",
+      "name": "Rishi Chandrasekaran",
+      "role": "Applied Mathematics",
+      "bio": "Will find success around 50.",
+      "links": {},
       "highlights": []
     }
   ],
