@@ -32,20 +32,20 @@
       ]
     },
     {
+      "slug": "rishi",
+      "name": "Rishi Chandrasekaran",
+      "role": "Applied Mathematics",
+      "bio": "",
+      "links": {},
+      "highlights": []
+    },
+    {
       "slug": "harsh",
       "name": "Harsh Gupta",
       "role": "Computer Engineering · ASIC / FPGA",
       "links": {
         "GitHub": "https://github.com/harsh-005"
       },
-      "highlights": []
-    },
-    {
-      "slug": "rishi",
-      "name": "Rishi Chandrasekaran",
-      "role": "Software Engineering · AI Agents",
-      "bio": "",
-      "links": {},
       "highlights": []
     }
   ],
