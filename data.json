@@ -39,6 +39,14 @@
         "GitHub": "https://github.com/harsh-005"
       },
       "highlights": []
+    },
+    {
+      "slug": "rishi",
+      "name": "Rishi Chandrasekaran",
+      "role": "Software Engineering · AI Agents",
+      "bio": "",
+      "links": {},
+      "highlights": []
     }
   ],
   "projects": [
@@ -58,7 +66,8 @@
         "Multi-agent LLM"
       ],
       "team": [
-        "dhruva"
+        "dhruva",
+        "rishi"
       ],
       "links": {
         "Code": "https://github.com/dhruvauppaluri/GCDC-HACKATHON"
