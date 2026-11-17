@@ -43,6 +43,7 @@
       "slug": "harsh",
       "name": "Harsh Gupta",
       "role": "Computer Engineering · ASIC / FPGA",
+      "bio": "I’m a computer engineering transfer student at UC Santa Cruz interested in digital hardware, ASIC design, and FPGAs. At hackathons, I’ve worked with teammates on Hanzel, a tool that compares project experience with job requirements, and Friday, a voice-controlled robot arm that draws on paper.",
       "links": {
         "GitHub": "https://github.com/harsh-005"
       },
@@ -67,6 +68,7 @@
       ],
       "team": [
         "dhruva",
+        "harsh",
         "rishi"
       ],
       "links": {
@@ -89,7 +91,8 @@
         "AMD Ryzen AI"
       ],
       "team": [
-        "dhruva"
+        "dhruva",
+        "harsh"
       ],
       "links": {
         "Code": "https://github.com/dhruvauppaluri/UCSCA-AI-HACKS-Porter-Tech",
