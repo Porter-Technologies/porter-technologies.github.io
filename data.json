@@ -28,16 +28,6 @@
           "title": "Jane Street Protocol Emulator ASIC",
           "text": "Cycle-accurate protocol emulator ASIC targeting an IHP 130 nm tapeout, with a custom 16-instruction processor.",
           "url": "https://github.com/dhruvauppaluri/Dhruva-Uppaluri-JaneStreetASIC"
-        },
-        {
-          "title": "Apollo 1: EEG Brain-Wave Controlled Rover",
-          "text": "WeaveHacks 4 (24-hour hackathon): a four-wheel rover whose speed follows focus measured by a Muse S EEG headband. I built the rover, motor electronics, firmware and computer-to-rover connection.",
-          "url": "https://dhruvauppaluri.github.io/project-apollo-1.html"
-        },
-        {
-          "title": "Axiom: Neural RLHF",
-          "text": "WeaveHacks 4 (24-hour hackathon): three AI agents adapt to a person's focus and engagement, measured with a Muse S EEG headband. I co-created it, proposed the assistive-communication idea, and built the baseline and timing sync between calibration, live EEG readings and scoring.",
-          "url": "https://dhruvauppaluri.github.io/project-axiom-neural-rlhf.html"
         }
       ]
     },
