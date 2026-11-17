@@ -30,8 +30,9 @@
           "url": "https://github.com/dhruvauppaluri/Dhruva-Uppaluri-JaneStreetASIC"
         },
         {
-          "title": "EEG Brain Signal Controlled Rover",
-          "text": "WeaveHacks 4: a hand-built rover driven by EEG brain waves through a multi-agent LLM system with edge inference, using custom transistor motor-control circuits."
+          "title": "Apollo 1: EEG Brain-Wave Controlled Rover",
+          "text": "WeaveHacks 4 (24-hour hackathon): a four-wheel rover whose speed follows focus measured by a Muse S EEG headband. I built the rover, motor electronics, firmware and computer-to-rover connection.",
+          "url": "https://dhruvauppaluri.github.io/project-apollo-1.html"
         },
         {
           "title": "Axiom: Neural RLHF",
